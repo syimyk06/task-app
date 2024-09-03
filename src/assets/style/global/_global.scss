@@ -1,0 +1,22 @@
+.app {
+	background: var(--bg-color);
+	min-height: 100vh;
+}
+
+.container {
+	max-width: 1020px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+	--bg-color: #3273AE;
+	--bg-block-color: #032749;
+	--text-sm-color: #e8e8e8;
+	--text-lg-color: #ffffff;
+	--line-color: #d4e4f3;
+}
