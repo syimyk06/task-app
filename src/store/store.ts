@@ -13,14 +13,12 @@ async function fetchInitialData() {
   }));
 }
 
-// Create a synchronous store for type definitions
 const store = configureStore({
   reducer: {
     procedures: proceduresReducer,
   },
 });
 
-// Define RootState and AppDispatch
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
 
