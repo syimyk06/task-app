@@ -1,5 +1,5 @@
 import { NotFound } from "./NotFound";
-import { AddTask } from "./AddTask"
-import { TaskList } from './TaskList';
+import { ProcedureList } from "./ProcedureList"
+import { Contacts } from "./Contacts";
 
-export { TaskList, AddTask, NotFound };
+export { ProcedureList, Contacts, NotFound };

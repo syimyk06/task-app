@@ -1,0 +1,39 @@
+.procedures_col {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.procedures_container {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #193c68;
+}
+
+.procedures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--text-color);
+}
+
+.procedures h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 49.03px;
+  text-align: center;
+  color: #193c68;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.procedure_desc {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  color: #717274;
+  align-self: flex-end;
+  margin-bottom: 15px;
+}

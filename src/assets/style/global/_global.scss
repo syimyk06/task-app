@@ -1,16 +1,16 @@
 .app {
-	background: var(--bg-color);
+	background: var(--bg-main-color);
 	min-height: 100vh;
 }
 
 .container {
-	max-width: 1020px;
+	max-width: 1284px;
 	padding: 0 10px;
 	margin: 0 auto;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Manrope', sans-serif;
 }
 
 :root {
@@ -19,4 +19,9 @@ body {
 	--text-sm-color: #e8e8e8;
 	--text-lg-color: #ffffff;
 	--line-color: #d4e4f3;
+
+	--text-color: #FDFFFC;
+	--bg-header-color: #FDFFFC;
+	--bg-main-color: #ECEBE4;
+
 }
